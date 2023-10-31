@@ -4,6 +4,24 @@
     box-sizing: border-box;
   }
   
+  .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-items article {
+    width: calc(50% - 40);
+    margin: 20px;
+  }
+
+  .portfolio-items article:first-child {
+    width: calc(100% - 40px);
+  }
+
+  .portfolio-items article:first-child img {
+    width:  100%;
+  }
+  
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
