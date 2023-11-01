@@ -4,28 +4,32 @@
     box-sizing: border-box;
   }
   
-  .portfolio-items {
+  .portfolio-work-content {
     display: flex;
     flex-wrap: wrap;
+    gap: 40px;
   }
 
-  .portfolio-items article {
-    width: calc(50% - 40);
+  .portfolio-work-content article {
+    width: calc(50% -40);
     margin: 20px;
   }
 
-  .portfolio-items article:first-child {
+  .portfolio-work-content article:first-child {
     width: calc(100% - 40px);
   }
 
-  .portfolio-items article img {
-    width:  100%;
+  .portfolio-work-content article img {
+    width: 100%
   }
   
-  .portfolio-items article a {
+  .portfolio-work-content article a {
     display: block;
     width: 100%;
     aspect-ratio: 16/9;
+    overflow: hidden;
+    align-items: center;
+
   }
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -45,6 +49,8 @@
   
   section > div {
     display: flex;
+    gap: 10px;
+
   }
   
   #about img {
@@ -61,6 +67,7 @@
   
   #work article:first-of-type {
     width: 100%;
+
   }
 
   
