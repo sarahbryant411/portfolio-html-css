@@ -16,12 +16,18 @@ header {
 
 nav {
   display: flex;
+  background-color: white;
   justify-content: flex-end;
 }
 
 nav a {
+  color: var(--black);
   padding: 14px 20px;
   text-align: center;
+}
+
+nav a:hover {
+  background-color: #355e3b ;
 }
 
 main {
