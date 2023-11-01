@@ -4,8 +4,8 @@
 
 ### Deployed Application:
 
-file:///Users/sarahbryant/Desktop/Bootcamp/challenges/portfolio-html-css/index.html#work
+https://sarahbryant411.github.io/portfolio-html-css/
 
 #### Github repository:
 
-https://sarahbryant411.github.io/portfolio-html-css/
+https://github.com/sarahbryant411/portfolio-html-css
