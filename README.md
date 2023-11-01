@@ -4,7 +4,7 @@
 
 ### Deployed Application:
 
-https://sarahbryant411.github.io/semantic-seo-refactor/
+file:///Users/sarahbryant/Desktop/Bootcamp/challenges/portfolio-html-css/index.html#work
 
 #### Github repository:
 
