@@ -49,6 +49,13 @@ section > div {
 
 #work > div {
   flex-wrap: wrap;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  
+
 }
 
 #work article:first-of-type {
